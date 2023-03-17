@@ -1,0 +1,22 @@
+
+#txtTuKhoa {
+    color: blue;
+    width: 55%;
+    height: 30px;
+
+}
+
+label {
+    color: red;
+    margin-right: 10px;
+    margin-left: 8%;
+}
+
+#button-search {
+    margin-left: 10px;
+    border: rgb(182, 236, 34) solid 1px;
+    border-radius: 10px;
+    height: 40px;
+}
+
+

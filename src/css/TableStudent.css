@@ -1,0 +1,62 @@
+table {
+    border-collapse: collapse;
+    background-color: #fff;
+  }
+  
+  tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  input[type=checkbox] {
+    /* appearance: none; */
+    width: 16px;
+    height: 16px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    position: relative;
+    top: 2px;
+  }
+  
+  th {
+    background-color: #eeeeee;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  td {
+    padding: 8px;
+    border: 1px solid #d1cbcb;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #428bca;
+  }
+  
+  #table-student{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  button{
+    margin-right: 15px;
+  }
+
+  #button-edit{
+    background-color: rgb(77, 199, 46);
+    color: azure;
+  }
+  #button-edit:hover{
+    background-color: #03ff20;
+    
+  }
+
+  #button-delete{
+    background-color: rgb(251, 52, 52);
+  }
+  #button-delete:hover{
+    background-color: red;
+  }
