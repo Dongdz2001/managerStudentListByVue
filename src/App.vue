@@ -50,6 +50,7 @@ export default {
     },
     deleteOneStudentINTable: function (student) {
       this.students = this.students.filter((s) => s.id !== student.id);
+      this.tempStudents =  this.students.slice();
       // console.log(`Đã xóa sinh viên ${student.name} có mã số ${student.id}`);
     },
     editStudentTableINDelete: function (student) {
@@ -69,6 +70,7 @@ export default {
     },
     deleteAllCheckBoxStudent: function(){
       this.students = this.students.filter((s) => s.flag !== true);
+      this.tempStudents =  this.students.slice();
     },
     searchStudent: function (tuKhoa) {
         console.log("Đã tìm kiếm từ khóa: " + tuKhoa);
